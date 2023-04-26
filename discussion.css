@@ -1,0 +1,125 @@
+.heading{
+    background-color: rgb(6, 184, 175);
+    color: azure;
+    font-weight: 400;
+    font-size: 30px;
+}
+body{
+    margin:0 0;
+    padding:0 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+    /* flex:2 3 auto; */
+    
+}
+.left{
+    display: flex;
+    flex-basis: 40% ;
+    /* background-color: black; */
+    height:100% ;
+    min-height: 500px;
+    max-height: max-content;
+    margin-left: 5px;
+    background-color:#D8D8D8;
+    border: 1px solid black;
+    flex-direction: column;
+   
+   
+    
+}
+
+
+
+.right{
+    flex-basis:60%;
+    display: flex;
+    height: 100%;
+    min-height: none;
+    max-height: max-content;
+    flex-direction: column;
+    
+}
+.welcome{
+    font-size: 40px;
+    margin-top: 20px;
+    max-height: max-content;
+}
+.enter{
+        margin-left: 10px;
+}
+.subjectdiv{
+    margin-top: 20px;
+    margin-bottom:20px;
+    min-width: min-content;
+    max-width: max-content;
+
+}
+#subject,.heading2{
+    max-width: max-content;
+}
+
+#question,.question{
+    min-height: 200px;
+    max-height: max-content;
+    padding-top: 0%;
+   
+   
+   
+}
+.large-font{
+    font-size:xxx-large;
+  }
+  .top-20{
+    position:relative;
+    top:20vh;
+  }
+  ion-icon.active{
+    animation:like 0.5s 1;
+    fill:red;
+    stroke:none;
+  }
+  ion-icon{
+    fill:transparent;
+    stroke:black;
+    stroke-width:30;
+    transition:all 0.5s;
+  }
+  
+  
+  @-webkit-keyframes like {
+    0%   { transform: scale(1); }
+    90%   { transform: scale(1.2); }
+    100% { transform: scale(1.1); }
+  }
+.Submit,.resolve,.submit2{
+    width: max-content;
+    margin-left: 650px;
+    max-width: min-content;
+    min-width:2px;
+    background-color: blue;
+    color: azure;
+    align-content:end;
+    
+}
+.new-question{
+    background-color: blue;
+    color:aliceblue;
+    margin: 20px 20px;
+    font-size: 14px;
+    padding: 5px   15px;
+    /* button:focus; */
+    
+}
+#search{
+    margin: 5px;
+    font-size: 12px;
+     padding: 5px  5px;
+}
+.questions{
+    margin-left: 5px;
+    margin-right: 50px ;
+}
+
